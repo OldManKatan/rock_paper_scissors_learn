@@ -6,12 +6,14 @@ your_code = ''
 
 def print_options():
     # Print out the options that the player may choose
-    pass
+    your_code  # <-- Your code here
 
 
 def get_opponent_pick():
     # Randomly choose one from "Rock", "Paper", or "Scissors", and return it
-    pass
+    # HINT: random.choice() allows you to pick one item randomly from a list
+    ai_choices = ["Rock", "Paper", "Scissors"]  # This is a list of valid choices, saved to the variable name ai_choices
+    your_code  # <-- Your code here
 
 
 # Press the green button in the gutter to run the script.

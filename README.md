@@ -3,6 +3,7 @@
 ## Goals
 
 This project is designed to be a gentle, and kid friendly, introduction to Python programming. Getting a working program happening quickly is important, so this project creates a working Rock, Paper, Scissors game in the very first lesson! From there, we improve our game by adding features one at a time. This allows us to add features along the way.
+
 I recommend using Pycharm when working through these lessons, or any IDE of your choice really. You can start each lesson by downloading that lesson's template and replacing all instances of "your_code" with the code you wrote to solve each problem presented in the comments. A more engaging way is to start with the 1_basic_template.py and look for what is new in each template, then add it to your 1 file that grows and changes as you work through the lessons.
 
 ## Audience

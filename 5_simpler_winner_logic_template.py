@@ -1,6 +1,9 @@
 import random
 
 
+your_code = ''
+
+
 def print_options():
     # Print out the options that the player may choose
     print('1 - Rock')
@@ -22,10 +25,15 @@ def print_score(human_score, ai_score):
     print('')
 
 
+# We are going to create a dictionary named "win_combos". There will be 1 key in this dictionary for each action the
+#     human of computer can take.
+# In each key: value pair, the value will be a list! This list contains the strings for all actions that the
+#     key action can beat. A list is defined by using square brackets "[" and "]", and has any number of items inside,
+#     separated by commas.
+# With just Rock, Paper, and Scissors, using a list may seem like overkill, but what if there are more options later?
 win_combos = {
-    "Rock": ["Scissors"],
-    "Paper": ["Rock"],
-    "Scissors": ["Paper"],
+    "Rock": [your_code],  # todo <-- replace your_code with the name of the action that Rock beats
+    # todo <-- Add additional items to this dictionary to reflect all of the possible matchups
 }
 
 
@@ -76,12 +84,15 @@ if __name__ == '__main__':
                 print("It's a draw!")
             # Next, let's handle when someone wins
             else:
-                if ai_does in win_combos[human_does]:
+                # If human_does != ai_does, then one of them must be a winner. We can compare each of their actions to
+                #     the actions listed in the win_combos dictionary to see if a winning combination exists!
+                # When we find out who won, we need to output a message to the console, and increase that player's score
+                if your_code in win_combos[your_code]:  # todo <-- replace your_code to make this work
                     print("You win!")
-                    human_score += 1
-                elif human_does in win_combos[ai_does]:
+                    your_code += 1  # todo <-- replace your_code to make this work
+                elif your_code in win_combos[your_code]:  # todo <-- replace your_code to make this work
                     print("Computer wins!")
-                    ai_score += 1
+                    your_code += 1  # todo <-- replace your_code to make this work
                 else:
                     print("This should never happen!")
 

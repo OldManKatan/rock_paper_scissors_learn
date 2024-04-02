@@ -76,6 +76,9 @@ if __name__ == '__main__':
                 print("It's a draw!")
             # Next, let's handle when someone wins
             else:
+                # If human_does != ai_does, then one of them must be a winner. We can compare each of their actions to
+                #     the actions listed in the win_combos dictionary to see if a winning combination exists!
+                # When we find out who won, we need to output a message to the console, and increase that player's score
                 if ai_does in win_combos[human_does]:
                     print("You win!")
                     human_score += 1

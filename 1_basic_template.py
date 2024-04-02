@@ -34,12 +34,12 @@ if __name__ == '__main__':
 
     # This is a while loop that will continue as long as we are playing. When playing_game becomes False, we will exit
     while playing_game:
-        # Tell the human what they can do by calling a the function print_options that you created above
+        # Tell the human what they can do by calling the function print_options that you created above
         your_code  # todo <-- Your code here
 
         # Ask the human for their choice (Rock, Paper, or Scissors), and store this in a variable
         # The human will use "1" for Rock, "2" for Paper, and "3" for Scissors
-        # HINT: Use the input('prompt') built in function to get the human input,
+        # HINT: Use the input('prompt') built-in function to get the human input,
         #     store their answer in a variable called human_choice
         human_choice = your_code  # todo <-- Your code here
 

@@ -13,8 +13,11 @@ These lessons assume that some basic coding fundmentals are known. Not many fund
 
 ### 1. Basic Rock Paper Scissors
 This is the starting lesson. It covers a lot of ground without a lot of detail. The skeleton of the game is laid out for you, but you have to get each piece working. This introduces the most concepts in a single lesson of any lesson.
+
 Lesson: 1_basic_template.py
+
 Answer Key: 1_basic.py
+
 Covers:
 - Coding fundamentals!
 - `print` statements, and sending information to the console.
@@ -26,8 +29,11 @@ Covers:
 
 ### 2. Add Quit
 This adds a way for the user to exit the program. After the size and complexity of the first lesson, this is a "quick win" that modifies existing code to improve our game. This is an introduction to modifying existing code bases and learning how to improve something without breaking it.
+
 Lesson: 2_add_quit_template.py
+
 Answer Key: 2_add_quit.py
+
 Covers:
 - Modify existing code.
 - Modifying conditionals in the form of if elif else statements.
@@ -35,8 +41,11 @@ Covers:
 
 ### 3. Add Score
 Keeping score is a common acitivity in games, let's add some score tracking to our game, and make sure it is communicated to the human player.
+
 Lesson: 3_add_score_template.py
+
 Answer Key: 3_score_quit.py
+
 Covers:
 - Write a function that accepts arguments, and uses those arguments.
 - Ordering of arguments is important!
@@ -45,8 +54,11 @@ Covers:
 
 ### 4. Add Dictionary
 Introduces dictionaries and uses them to simplify some of the code we wrote previously. This introduces the concept of using data structures to make coding tasks easier.
+
 Lesson: 4_add_dictionary_template.py
+
 Answer Key: 4_add_dictionary.py
+
 Covers:
 - Creating a dictionary and assigning that dictionary to a variable.
 - Getting a value out of a dictionary using a key.
@@ -55,8 +67,11 @@ Covers:
 
 ### 5. Simpler Winner Logic
 Continuing our work on refactoring our game to make it easier to read, write, and maintain, we are going to take the extensive winner logic and use our newfound skill with dictionaries to make the code smaller and more powerful.
+
 Lesson: 5_simpler_winner_logic_template.py
+
 Answer Key: 5_simpler_winner_logic.py
+
 Covers:
 - Creating a dictionary as a complex data structure (a dictionary that has lists for values).
 - Planning for the future in your code.
